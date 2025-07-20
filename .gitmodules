@@ -1,12 +1,12 @@
 [submodule "Minimus"]
 	path = Beamer/minimus
 	url = git@Lithium:LaTeX/Minimus.git
-	branch = master
+	branch = dev
 [submodule "BeamerBismuth"]
 	path = Beamer/beamer-bismuth
 	url = git@Lithium:LaTeX/BeamerBismuth.git
-	branch = master
+	branch = dev
 [submodule "StandaloneSilicon"]
 	path = Beamer/standalone-silicon
 	url = git@Lithium:LaTeX/StandaloneSilicon.git
-	branch = master
+	branch = dev
