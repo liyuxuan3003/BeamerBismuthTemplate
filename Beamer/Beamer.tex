@@ -1,0 +1,44 @@
+\makeatletter\def\input@path{{minimus}{beamer-bismuth}}\makeatother
+
+\documentclass{beamer-bismuth}
+
+\usepackage{minimus-section}
+\usepackage{minimus-text}
+\usepackage{minimus-math}
+\usepackage{minimus-float}
+\usepackage{minimus-code}
+\usepackage{minimus-colorbox}
+\usepackage{minimus-reference}
+\usepackage{minimus-bibtex}
+
+\graphicspath{{build}{image}}
+
+\title{幻灯片模板}
+\institute{上海科技大学\quad 信息学院}
+\author{李宇轩}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}
+    \frametitle{目录}
+    \tableofcontents[hideallsubsections]
+\end{frame}
+
+\nocite{*}
+
+\begin{frame}[allowframebreaks]{References}
+    \frametitle{参考文献}
+    \bibliography{Reference.bib}
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+        \LARGE 谢谢大家！
+    \end{center}
+\end{frame}
+
+\end{document}
