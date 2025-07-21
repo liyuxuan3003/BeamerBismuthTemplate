@@ -1,8 +1,30 @@
 \section{图表测试}\label{sec:图表测试}
 
 \begin{frame}
+    \frametitle{图片测试}
+    如\cref{fig:图片}所示
     \begin{Figure}[图片]
-        111
+        \includegraphics{TextA.fig.pdf}
     \end{Figure}
-    \cref{fig:图片}
+\end{frame}
+
+\begin{frame}
+    \frametitle{多张图片的情况}
+    如\cref{fig:图片A,fig:图片B}所示
+    \begin{Figure}[多张图片]
+        \figuresub[图片A]{\includegraphics{TextA.fig.pdf}}{0.4}
+        \figuresub[图片B]{\includegraphics{TextB.fig.pdf}}{0.4}
+    \end{Figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{表格测试}
+    如\cref{tab:表格测试}所示
+    \begin{Table}[表格测试]
+        \begin{tblr}{colspec={X[2,l]X[2,l]X[0.5,c]},cell{2-Z}{3}={mode=math}}   
+            中文&英文&符号\\
+            阿尔法&Alpha&\alpha\\
+            贝塔&Beta&\beta\\
+        \end{tblr}
+    \end{Table}
 \end{frame}

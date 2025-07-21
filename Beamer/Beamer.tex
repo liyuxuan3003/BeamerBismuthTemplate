@@ -11,26 +11,6 @@
 \usepackage{minimus-reference}
 \usepackage{minimus-bibtex}
 
-
-% \makeatletter
-% \AtBeginDocument{
-%   \def\beamer@label<#1>{%
-%     \def\hack@arg{#1}%
-%     \@ifnextchar[\beamer@label@opt\beamer@label@noopt
-%   }%
-%   \def\beamer@label@opt[#1]#2{%
-%     \expandafter\alt\expandafter<\hack@arg>%
-%       {\beamer@origlabel[#1]{#2}\beamer@nameslide{#2}}%
-%       {\beamer@dummynameslide}%
-%   }%
-%   \def\beamer@label@noopt#1{%
-%     \expandafter\alt\expandafter<\hack@arg>%
-%       {\beamer@origlabel{#1}\beamer@nameslide{#1}}%
-%       {\beamer@dummynameslide}%
-%   }%
-% }
-% \makeatother
-
 \graphicspath{{build}{image}}
 
 \title{幻灯片模板}
