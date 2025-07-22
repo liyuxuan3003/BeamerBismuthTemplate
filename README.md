@@ -1,0 +1,3 @@
+# BeamerBismuthTemplate
+
+BeamerBismuthTemplate是一个开箱即用的LaTeX幻灯片模板，基于自定义文档类BeamerBismuth和自定义宏包Minimus，亦作为其测试环境。
