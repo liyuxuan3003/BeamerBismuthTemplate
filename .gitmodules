@@ -10,3 +10,7 @@
 	path = Beamer/standalone-silicon
 	url = git@Lithium:LaTeX/StandaloneSilicon.git
 	branch = dev
+[submodule "MakefileLaTeX"]
+	path = Beamer/makefile-latex
+	url = git@Lithium:LaTeX/MakefileLaTeX
+	branch = dev
