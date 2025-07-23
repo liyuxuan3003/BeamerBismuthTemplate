@@ -28,3 +28,43 @@
         \end{tblr}
     \end{Table}
 \end{frame}
+
+\begin{frame}
+    \frametitle{长表格测试}
+    如\cref{tab:长表格测试}所示，测试caption用
+    \begin{Table}[长表格测试]!
+        \begin{tblr}{colspec={X[2,l]X[2,l]X[0.5,c]},cell{2-Z}{3}={mode=math}}   
+            中文&英文&符号\\
+            阿尔法&Alpha&\alpha\\
+            贝塔&Beta&\beta\\
+        \end{tblr}
+    \end{Table}
+\end{frame}
+
+\begin{frame}
+    \frametitle{X过多导致表格caption间距不正常}
+    \begin{Table}[X较少]
+        \begin{tblr}{colspec={lllllXX},cell{1}{2-6}={mode=math}}
+            模式&SW_1&SW_2&SW_3&L_{2a}&L_{2b}&说明\\
+            1&0&0&0&开路&开路&单频带\\
+            2&1&0&0&短路&开路&单频带\\
+            3&0&1&0&开路&电容&双频带\\
+            4&0&0&1&开路&短路&单频带\\
+            5&1&0&1&短路&短路&超宽带\\
+        \end{tblr}
+    \end{Table}
+\end{frame}
+
+\begin{frame}
+    \frametitle{X过多导致表格caption间距不正常}
+    \begin{Table}[X较多]
+        \begin{tblr}{colspec={llllXXX},cell{1}{2-6}={mode=math}}
+            模式&SW_1&SW_2&SW_3&L_{2a}&L_{2b}&说明\\
+            1&0&0&0&开路&开路&单频带\\
+            2&1&0&0&短路&开路&单频带\\
+            3&0&1&0&开路&电容&双频带\\
+            4&0&0&1&开路&短路&单频带\\
+            5&1&0&1&短路&短路&超宽带\\
+        \end{tblr}
+    \end{Table}
+\end{frame}
