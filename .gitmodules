@@ -12,7 +12,7 @@
 	branch = dev
 [submodule "MakefileLaTeX"]
 	path = Beamer/makefile-latex
-	url = git@Lithium:LaTeX/MakefileLaTeX
+	url = git@Lithium:LaTeX/MakefileLaTeX.git
 	branch = dev
 [submodule "PyJool"]
 	path = Beamer/pyjool
