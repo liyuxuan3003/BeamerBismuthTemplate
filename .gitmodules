@@ -14,3 +14,7 @@
 	path = Beamer/makefile-latex
 	url = git@Lithium:LaTeX/MakefileLaTeX
 	branch = master
+[submodule "PyJool"]
+	path = Beamer/pyjool
+	url = git@Lithium:LaTeX/PyJool.git
+	branch = master
