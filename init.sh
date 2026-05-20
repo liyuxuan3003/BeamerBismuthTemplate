@@ -6,7 +6,7 @@ set -euo pipefail
 # Config
 DIR_TEMPLATE="Beamer"
 FILE_MAIN="Beamer.tex"
-FILE_README="BeamerBismuth.md"
+FILE_README="BeamerBismuthTemplate.md"
 
 # Usage
 usage() {
